@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Restaurant Management Website</title>
+  <style>
+   
+   body {
+        font-family: Arial, sans-serif;
+        background-image: url("bg1.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+    .logout{
+      
+      background-color: rgba(255, 255, 255, 0.8);
+      width: 145px;
+      height: 85px;
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+
+    }
+    .logout:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    }
+  
+.logout{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+}
+
+    .container {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .options {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .logout h3 {
+      font-size: 18px;
+      color: #333;
+    }
+
+    .option {
+      background-color: rgba(255, 255, 255, 0.8);
+      width: 300px;
+      height: 200px;
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+
+    }
+
+    .option:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .option h2 {
+      font-size: 24px;
+      color: #333;
+    }
+  </style>
+</head>
+
+<body>
+
+  <style>
+    body {
+      background-image: url('bg1.jpg');
+    }
+    </style>
+    
+    <button class="logout">
+      <a href="login.html">
+        <h3>Log-Out</h3>
+      </a>
+   
+    </button>
+    
+  <div class="container">
+    <div class="options">
+      <a href="employee_details.html" class="option">
+        <h2>Employee Details</h2>
+      </a>
+      <a href="menu.html" class="option">
+        <h2>Menu Management</h2>
+      </a>
+      <a href="resources.html" class="option">
+        <h2>Resources</h2>
+      </a>
+    </div>
+  </div>
+</body>
+
+</html>

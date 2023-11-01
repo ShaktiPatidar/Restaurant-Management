@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resource Management</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-image: url("bg1.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .options {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        max-width: 800px;
+      }
+
+      .option {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        text-decoration: none;
+      
+      }
+
+      .option:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+      }
+
+      .option h2 {
+        font-size: 24px;
+        color: #333;
+      }
+
+      .option p {
+        margin-top: 10px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <style>
+      body {
+        background-image: url("bg1.jpg");
+      }
+    </style>
+    <div class="container">
+      <div class="options">
+          <a href="Display_Database.html" class="option">
+            <h2>Display</h2>
+            <p>Display inventory details</p>
+          </a>
+       
+          <a href="View_Specific_Records.html" class="option">
+            <h2>Search</h2>
+            <p>View Specific Records </p>
+          </a>
+
+          <a href="Add_New_Records.html" class="option">
+            <h2>Add </h2>
+            <p>Add New Records </p>
+          </a>
+        
+        
+          <a href="Update_Existing_Record.html" class="option">
+            <h2>Update</h2>
+            <p>Update Existing Records </p>
+          </a>
+        
+          <a href="Monthly_Cost_Wastage.html" class="option">
+            <h2>Cost and Waste Calculation</h2>
+            <p>Calculate monthly cost and wastage calculation</p>
+          </a>
+        
+          <a href="dashboard.html" class="option">
+            <h2>Exit</h2>
+            <p>Back to main menu</p>
+          </a>
+
+      </div>
+    </div>
+  </body>
+</html>
